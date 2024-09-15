@@ -1,0 +1,21 @@
+#header {
+    background-color: lightblue;
+    text-align: center;
+}
+.box {
+    background-color: yellow;
+}
+* {
+    font-family: cursive;
+}
+p, h2 {
+    font-size: 10px;
+    color: rgb(43, 46, 226);
+    background-color: rgb(234, 103, 103);
+}
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: rgb(0, 6, 128);
+}

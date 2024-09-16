@@ -1,0 +1,46 @@
+.picandinfo {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.pic img{
+  width: 150px;
+  height: 150px;
+}
+
+.info {
+  
+  margin-left: 20px;
+}
+
+.info p {
+  font-size: 14px;
+}
+
+.sumandskill {
+  display: flex;
+  align-items: initial;
+  
+}
+
+.summary {
+  width: 500px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.skill {
+  margin-left: 70px;
+}
+.skilllist {
+  margin-top: -50px;
+  margin-left: -50px;
+  display: flex;
+  align-items: initial;
+  margin: none;
+  
+}
+.skill li {
+  margin-inline-start: 50px;
+}
+

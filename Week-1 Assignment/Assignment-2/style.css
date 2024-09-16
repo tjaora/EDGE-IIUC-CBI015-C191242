@@ -1,46 +1,54 @@
 .picandinfo {
-  display: flex;
-  align-items: center;
-  margin-left: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
 }
 
-.pic img{
-  width: 150px;
-  height: 150px;
+.pic img {
+    width: 150px;
+    height: 150px;
 }
 
 .info {
-  
-  margin-left: 20px;
+    margin-left: 20px;
+    font-size: 17px;
 }
 
-.info p {
-  font-size: 14px;
+.info img {
+    width: 11px;
+    height: 11px;
 }
 
 .sumandskill {
-  display: flex;
-  align-items: initial;
-  
+    display: flex;
+    align-items: initial;
 }
 
 .summary {
-  width: 500px;
-  margin-left: 15px;
-  margin-right: 10px;
-}
-.skill {
-  margin-left: 70px;
-}
-.skilllist {
-  margin-top: -50px;
-  margin-left: -50px;
-  display: flex;
-  align-items: initial;
-  margin: none;
-  
-}
-.skill li {
-  margin-inline-start: 50px;
+    width: 500px;
+    margin-left: 15px;
+    margin-right: 10px;
 }
 
+.skill {
+    margin-left: 70px;
+}
+
+.skilllist {
+    margin-top: -50px;
+    margin-left: -50px;
+    display: flex;
+    align-items: initial;
+    margin: none;
+}
+
+.skill li {
+    margin-inline-start: 50px;
+}
+
+table,
+tr,
+td {
+    border-spacing: 15px;
+    vertical-align: top;
+}

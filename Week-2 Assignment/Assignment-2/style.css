@@ -110,9 +110,22 @@
         text-decoration: none;
     }
     
+    .image {
+        position: relative;
+    }
+    
     .image-1 {
+        position: absolute;
         margin-top: -325px;
         margin-left: 360px;
+    }
+    
+    .image-2 {
+        translate: 100px 175px;
+        margin-top: -480px;
+        margin-left: 700px;
+        width: 420px;
+        height: 440px;
     }
     
     .myself {

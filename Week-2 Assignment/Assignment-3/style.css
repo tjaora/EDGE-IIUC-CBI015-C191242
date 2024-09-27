@@ -1,207 +1,279 @@
-    * {
-        margin: 0%;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-    body {
-        margin: 0px;
-    }
-    
-    header {
-        margin: 0%;
-        padding: 0%;
-        display: flex;
-        flex-direction: row;
-        height: 511px;
-        width: 1700px;
-        text-decoration: none;
-        background-color: #FFF8F3;
-    }
-    
-    .dev-des {
-        margin-top: 512px;
-        height: 126px;
-        width: 512px;
-        background-color: #FFF8F3;
-        transform-origin: 0 0;
-        transform: rotate(-90deg);
-    }
-    
-    .text-des {
-        font-size: 83px;
-        text-decoration-color: #939292;
-        opacity: 15%;
-        margin-top: -3%;
-        letter-spacing: 12px;
-        text-shadow: 2px 2px 2px gray;
-    }
-    
-    .name {
-        text-decoration: #939292;
-        margin-top: 20px;
-        font-size: 14px;
-        font-style: italic;
-    }
-    
-    .container nav {
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .navInsec {
-        display: flex;
-        gap: 0px 100px;
-        margin-left: 610px;
-        margin-top: 10px;
-    }
-    
-    .menu {
-        margin-top: 20px;
-    }
-    
-    li {
-        list-style: none;
-    }
-    
-    li>a {
-        text-decoration: none;
-        color: black;
-    }
-    
-    .cta-btn {
-        background-color: #FD6E0A;
-        padding: 20px;
-        border-radius: 5px;
-    }
-    
-    .cta-btn>a {
-        color: white;
-    }
-    
-    .box {
-        display: flex;
-        gap: 0px 30px;
-    }
-    
-    .cta-btn-2 {
-        display: flex;
-        background-color: #FD6E0A;
-        padding: 20px;
-        border-radius: 5px;
-    }
-    
-    .cta-btn-2>a {
-        color: white;
-        text-decoration: none;
-    }
-    
-    .cta-btn-3 {
-        display: flex;
-        background-color: white;
-        padding: 20px;
-        border-radius: 5px;
-        border-width: 1px;
-        border-color: #FD6E0A;
-    }
-    
-    .cta-btn-3>a {
-        color: #FD6E0A;
-        text-decoration: none;
-    }
-    
-    .image {
-        position: relative;
-    }
-    
-    .image-1 {
-        position: absolute;
-        margin-top: -325px;
-        margin-left: 360px;
-    }
-    
-    .image-2 {
-        translate: 100px 175px;
-        margin-top: -480px;
-        margin-left: 700px;
-        width: 420px;
-        height: 440px;
-    }
-    
-    .myself {
-        margin-top: 90px;
-    }
-    
-    .bold {
-        font-size: 40px;
-    }
-    
-    .box-1 {
-        margin-top: 96px;
-        margin-left: 230px;
-        width: 1180px;
-        height: 302px;
-        border-radius: 15px;
-        border-width: 4px;
-        background-color: #FFF8F3;
-    }
-    
-    .hp1 {
-        margin-left: 586px;
-        margin-top: 20px;
-        padding-top: 28px;
-    }
-    
-    .p1 {
-        margin-left: 186px;
-        margin-top: 20px;
-        width: 827px;
-        text-align: center;
-    }
-    
-    .abouttb {
-        margin-left: 260px;
-        margin-top: 30px;
-    }
-    
-    th {
-        padding: 8px;
-    }
-    
-    td {
-        padding: 8px;
-    }
-    
-    .skills {
-        text-align: center;
-        align-items: center;
-        margin-left: 10px;
-        margin-top: 50px;
-    }
-    
-    .skills>p {
-        text-align: center;
-        width: 800px;
-        padding-left: 20px;
-        margin-left: 430px;
-    }
-    
-    .skill-cards {
-        display: flex;
-        gap: 30px;
-        width: 700px;
-        margin-left: 490px;
-        margin-top: 20px;
-    }
-    
-    .card {
-        box-shadow: 5px 10px 12px gray;
-        border: none;
-        border-radius: 5px;
-        padding: 20px;
-    }
-    
-    .card-row {
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
+            * {
+                margin: 0%;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            
+            body {
+                margin: 0px;
+            }
+            
+            header {
+                margin: 0%;
+                padding: 0%;
+                display: flex;
+                flex-direction: row;
+                height: 511px;
+                width: 1700px;
+                text-decoration: none;
+                background-color: #FFF8F3;
+            }
+            
+            .dev-des {
+                margin-top: 512px;
+                height: 126px;
+                width: 512px;
+                background-color: #FFF8F3;
+                transform-origin: 0 0;
+                transform: rotate(-90deg);
+            }
+            
+            .text-des {
+                font-size: 83px;
+                text-decoration-color: #939292;
+                opacity: 15%;
+                margin-top: -3%;
+                letter-spacing: 12px;
+                text-shadow: 2px 2px 2px gray;
+            }
+            
+            .name {
+                text-decoration: #939292;
+                margin-top: 20px;
+                font-size: 14px;
+                font-style: italic;
+            }
+            
+            .container nav {
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .navInsec {
+                display: flex;
+                gap: 0px 100px;
+                margin-left: 610px;
+                margin-top: 10px;
+            }
+            
+            .menu {
+                margin-top: 20px;
+            }
+            
+            li {
+                list-style: none;
+            }
+            
+            li>a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            .cta-btn {
+                background-color: #FD6E0A;
+                padding: 20px;
+                border-radius: 5px;
+            }
+            
+            .cta-btn>a {
+                color: white;
+            }
+            
+            .box {
+                display: flex;
+                gap: 0px 30px;
+            }
+            
+            .cta-btn-2 {
+                display: flex;
+                background-color: #FD6E0A;
+                padding: 20px;
+                border-radius: 5px;
+            }
+            
+            .cta-btn-2>a {
+                color: white;
+                text-decoration: none;
+            }
+            
+            .cta-btn-3 {
+                display: flex;
+                background-color: white;
+                padding: 20px;
+                border-radius: 5px;
+                border-width: 1px;
+                border-color: #FD6E0A;
+            }
+            
+            .cta-btn-3>a {
+                color: #FD6E0A;
+                text-decoration: none;
+            }
+            
+            .image {
+                position: relative;
+            }
+            
+            .image-1 {
+                position: absolute;
+                margin-top: -325px;
+                margin-left: 360px;
+            }
+            
+            .image-2 {
+                translate: 100px 175px;
+                margin-top: -480px;
+                margin-left: 700px;
+                width: 420px;
+                height: 440px;
+            }
+            
+            .myself {
+                margin-top: 90px;
+            }
+            
+            .bold {
+                font-size: 40px;
+            }
+            
+            .box-1 {
+                margin-top: 96px;
+                margin-left: 230px;
+                width: 1180px;
+                height: 302px;
+                border-radius: 15px;
+                border-width: 4px;
+                background-color: #FFF8F3;
+            }
+            
+            .hp1 {
+                margin-left: 586px;
+                margin-top: 20px;
+                padding-top: 28px;
+            }
+            
+            .p1 {
+                margin-left: 186px;
+                margin-top: 20px;
+                width: 827px;
+                text-align: center;
+            }
+            
+            .abouttb {
+                margin-left: 260px;
+                margin-top: 30px;
+            }
+            
+            th {
+                padding: 8px;
+            }
+            
+            td {
+                padding: 8px;
+            }
+            
+            .skills {
+                text-align: center;
+                align-items: center;
+                margin-left: 10px;
+                margin-top: 50px;
+            }
+            
+            .skills>p {
+                text-align: center;
+                width: 800px;
+                padding-left: 20px;
+                margin-left: 430px;
+            }
+            
+            .skill-cards {
+                display: flex;
+                gap: 30px;
+                width: 700px;
+                margin-left: 490px;
+                margin-top: 20px;
+            }
+            
+            .card {
+                box-shadow: 5px 10px 12px gray;
+                border: none;
+                border-radius: 5px;
+                padding: 20px;
+            }
+            
+            .card-row {
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+            
+            .edu {
+                margin-top: 6em;
+                margin-left: 10em;
+                width: 25em;
+            }
+            
+            .edu>h2 {
+                width: 40em;
+                margin-left: 15em;
+                padding-bottom: 22px;
+                font: 2.1875em sans-serif;
+            }
+            
+            .edu>h3 {
+                padding: 20px;
+                font-size: 1.875em;
+            }
+            
+            .edu>h4 {
+                font-size: 1.1625em;
+                font-weight: 500;
+                padding: 20px;
+                padding-bottom: 0%;
+                width: 400px;
+            }
+            
+            .edu>h5 {
+                font-size: 1.05em;
+                padding: 20px;
+                padding-top: 0;
+                text-decoration: italic;
+                font-weight: lighter;
+            }
+            
+            .edu>p {
+                padding-left: 20px;
+                padding-bottom: 20px;
+            }
+            
+            .edu>.cta-btn-2 {
+                margin-left: 650px;
+                width: 6.5em;
+            }
+            
+            footer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2.5em;
+                margin-left: 650px;
+            }
+            
+            footer>h1 {
+                padding: 1.5em;
+            }
+            
+            footer>.finside {
+                display: flex;
+                flex-direction: column;
+                gap: 1.25em;
+            }
+            
+            .mess {
+                width: 42.5em;
+                height: 12.5em;
+            }
+            
+            footer>.cta-btn-2 {
+                margin-top: 10px;
+                margin-left: -480px;
+            }

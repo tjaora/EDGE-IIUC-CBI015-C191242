@@ -1,0 +1,108 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cname {
+    display: flex;
+    align-self: flex-start;
+    padding-left: 1rem;
+}
+
+nav {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    column-gap: 3rem;
+    padding: 2rem;
+}
+
+.class1>a {
+    text-decoration: none;
+    color: black;
+}
+
+.class2>a {
+    text-decoration: none;
+    color: black;
+}
+
+.class3>a {
+    text-decoration: none;
+    color: black;
+}
+
+.class4>a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1>h2 {
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+.box1>p {
+    color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1>button {
+    background-color: orange;
+    border-width: 0cap;
+    padding: 0.7rem;
+    border-radius: 15%;
+}
+
+.box1>img:hover {
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: space-between;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    border: 1px solid black;
+}
+
+.gallery>img {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        flex-direction: column;
+        padding-bottom: 0;
+        align-self: center;
+    }
+    header>nav {
+        flex-direction: column;
+        align-self: center;
+        padding-top: 0;
+    }
+}

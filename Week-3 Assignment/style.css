@@ -1,0 +1,719 @@
+.frame-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+    height: 1322px;
+}
+
+.brand-new {
+    margin: 0;
+}
+
+.brand-new-group-container {
+    position: absolute;
+    top: 205px;
+    left: 529px;
+    font-size: 64px;
+    display: inline-block;
+    color: #131313;
+    text-align: center;
+    width: 862px;
+}
+
+.g3-architects {
+    position: absolute;
+    top: 50px;
+    left: 228px;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+}
+
+.there-are-many {
+    position: absolute;
+    top: 379px;
+    left: 526px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    display: inline-block;
+    width: 868px;
+}
+
+.home-about-contact {
+    position: absolute;
+    top: 23px;
+    left: 1220px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #424242;
+    white-space: pre-wrap;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    gap: 3rem;
+}
+
+nav>.class>a {
+    text-decoration: none;
+    color: #131313;
+}
+
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px;
+    background-color: #ff900e;
+    width: 180px;
+    height: 64px;
+}
+
+.explore-more {
+    position: absolute;
+    top: 21px;
+    left: 25px;
+    font-weight: 600;
+}
+
+.rectangle-group {
+    position: absolute;
+    top: 463px;
+    left: 870px;
+    width: 180px;
+    height: 64px;
+    text-align: center;
+    color: #fff;
+}
+
+.some-facts {
+    position: absolute;
+    top: 3434px;
+    left: 240px;
+    font-size: 45px;
+    color: #131313;
+}
+
+.there-are-many1 {
+    position: absolute;
+    top: 3511px;
+    left: 240px;
+    font-size: 16px;
+    line-height: 26px;
+    display: inline-block;
+    width: 542px;
+}
+
+.project-finished {
+    position: absolute;
+    top: 58px;
+    left: 0px;
+    font-weight: 600;
+}
+
+.div {
+    position: absolute;
+    top: 0px;
+    left: 29px;
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    text-align: center;
+}
+
+.project-finished-parent {
+    position: absolute;
+    top: 3764px;
+    left: 697px;
+    width: 160px;
+    height: 81px;
+}
+
+.div1 {
+    position: absolute;
+    top: 0px;
+    left: 34px;
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    text-align: center;
+}
+
+.clients-worked-parent {
+    position: absolute;
+    top: 3764px;
+    left: 1063px;
+    width: 150px;
+    height: 81px;
+}
+
+.email-send {
+    position: absolute;
+    top: 58px;
+    left: 11px;
+    font-weight: 600;
+}
+
+.div2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+}
+
+.email-send-parent {
+    position: absolute;
+    top: 3764px;
+    left: 1443px;
+    width: 133px;
+    height: 81px;
+    text-align: center;
+}
+
+.frame-item {
+    position: absolute;
+    top: 3663.08px;
+    left: 531.92px;
+    border-radius: 8px;
+    border: 1px solid #ff900e;
+    box-sizing: border-box;
+    width: 241.8px;
+    height: 241.8px;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+}
+
+.frame-inner {
+    position: absolute;
+    top: 3663.08px;
+    left: 897.92px;
+    border-radius: 8px;
+    border: 1px solid #ff900e;
+    box-sizing: border-box;
+    width: 241.8px;
+    height: 241.8px;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+}
+
+.rectangle-div {
+    position: absolute;
+    top: 3663.08px;
+    left: 1263.92px;
+    border-radius: 8px;
+    border: 1px solid #ff900e;
+    box-sizing: border-box;
+    width: 241.8px;
+    height: 241.8px;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+}
+
+.frame-child1 {
+    position: absolute;
+    top: 3663.08px;
+    left: 1629.92px;
+    border-radius: 8px;
+    border: 1px solid #ff900e;
+    box-sizing: border-box;
+    width: 241.8px;
+    height: 241.8px;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+}
+
+.group-icon {
+    position: absolute;
+    height: 0.95%;
+    width: 2.35%;
+    top: 77.92%;
+    right: 58.38%;
+    bottom: 21.13%;
+    left: 39.27%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.div3 {
+    position: absolute;
+    top: 0px;
+    left: 57px;
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+}
+
+.awards-winnings-parent {
+    position: absolute;
+    top: 55.22px;
+    left: 0px;
+    width: 169px;
+    height: 81px;
+}
+
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 62px;
+    width: 45.2px;
+    height: 45.2px;
+}
+
+.group-parent {
+    position: absolute;
+    top: 3709px;
+    left: 326px;
+    width: 169px;
+    height: 136.2px;
+}
+
+.frame-child2 {
+    position: absolute;
+    height: 0.95%;
+    width: 2.47%;
+    top: 77.92%;
+    right: 39.51%;
+    bottom: 21.13%;
+    left: 58.02%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.frame-child3 {
+    position: absolute;
+    height: 0.95%;
+    width: 2.34%;
+    top: 77.92%;
+    right: 20.21%;
+    bottom: 21.13%;
+    left: 77.45%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.our-sponspors {
+    position: absolute;
+    top: 0px;
+    left: 108px;
+}
+
+.there-are-many2 {
+    position: absolute;
+    top: 77px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    text-align: center;
+    display: inline-block;
+    width: 542px;
+}
+
+.our-sponspors-parent {
+    position: absolute;
+    top: 4085px;
+    left: 689px;
+    width: 542px;
+    height: 129px;
+    font-size: 45px;
+    color: #131313;
+}
+
+.spotify-logo-icon {
+    position: absolute;
+    top: 4264px;
+    left: 240px;
+    width: 166.8px;
+    height: 50px;
+    overflow: hidden;
+    mix-blend-mode: luminosity;
+}
+
+.amazon-logo-icon {
+    position: absolute;
+    top: 4264px;
+    left: 562px;
+    width: 165.8px;
+    height: 50px;
+    mix-blend-mode: luminosity;
+}
+
+.google-logo-icon {
+    position: absolute;
+    top: 4264px;
+    left: 883px;
+    width: 153.3px;
+    height: 50px;
+    overflow: hidden;
+    mix-blend-mode: luminosity;
+}
+
+.telerama-logo-icon {
+    position: absolute;
+    height: 1.05%;
+    width: 7.94%;
+    top: 89.58%;
+    right: 30.03%;
+    bottom: 9.37%;
+    left: 62.03%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    mix-blend-mode: luminosity;
+}
+
+.figma-logo-icon {
+    position: absolute;
+    top: 4264px;
+    left: 1498px;
+    width: 181.7px;
+    height: 50px;
+    overflow: hidden;
+    mix-blend-mode: luminosity;
+}
+
+.group-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px;
+    background-color: #fff4e7;
+    width: 1440px;
+    height: 100px;
+}
+
+.all-rights-reserved {
+    position: absolute;
+    top: 39px;
+    left: 410px;
+}
+
+.rectangle-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 100px;
+}
+
+.group-wrapper {
+    position: absolute;
+    top: 4444px;
+    left: 240px;
+    width: 1440px;
+    height: 100px;
+    text-align: center;
+    color: #424242;
+}
+
+.banner-icon {
+    position: absolute;
+    top: 577px;
+    left: 240px;
+    border-radius: 8px;
+    width: 1440px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.quick-list {
+    font-weight: 500;
+}
+
+.features {
+    color: #ff900e;
+}
+
+.of-our-features {
+    color: #131313;
+}
+
+.quick-list-of-container {
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    display: inline-block;
+    width: 468px;
+}
+
+.there-are-many3 {
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    display: inline-block;
+    width: 537px;
+}
+
+.group-div {
+    position: absolute;
+    top: 240px;
+    left: 0px;
+    width: 180px;
+    height: 64px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.quick-list-of-our-features-parent {
+    position: absolute;
+    top: 1609px;
+    left: 1082px;
+    width: 537px;
+    height: 304px;
+    font-size: 45px;
+}
+
+.team1-icon {
+    position: absolute;
+    top: 1407px;
+    left: 301px;
+    border-radius: 8px;
+    width: 342px;
+    height: 342px;
+    object-fit: cover;
+}
+
+.team3-icon {
+    position: absolute;
+    top: 1773px;
+    left: 301px;
+    border-radius: 8px;
+    width: 342px;
+    height: 342px;
+    object-fit: cover;
+}
+
+.team2-icon {
+    position: absolute;
+    top: 1407px;
+    left: 667px;
+    border-radius: 8px;
+    width: 342px;
+    height: 342px;
+    object-fit: cover;
+}
+
+.team4-icon {
+    position: absolute;
+    top: 1773px;
+    left: 667px;
+    border-radius: 8px;
+    width: 342px;
+    height: 342px;
+    object-fit: cover;
+}
+
+.features-you-will {
+    position: absolute;
+    top: 0px;
+    left: 26px;
+    display: inline-block;
+    width: 468px;
+}
+
+.there-are-many4 {
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    display: inline-block;
+    width: 586px;
+}
+
+.group-child2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    background-color: #fff;
+    width: 586px;
+    height: 171px;
+}
+
+.dexktop-mobile {
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    font-weight: 600;
+}
+
+.there-are-many5 {
+    position: absolute;
+    top: 33px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    display: inline-block;
+    width: 514px;
+}
+
+.dexktop-mobile-version-parent {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 514px;
+    height: 111px;
+}
+
+.rectangle-parent1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 586px;
+    height: 171px;
+}
+
+.rectangle-parent2 {
+    position: absolute;
+    top: 191px;
+    left: 0px;
+    width: 586px;
+    height: 171px;
+}
+
+.rectangle-parent3 {
+    position: absolute;
+    top: 382px;
+    left: 0px;
+    width: 586px;
+    height: 171px;
+}
+
+.rectangle-parent4 {
+    position: absolute;
+    top: 573px;
+    left: 0px;
+    width: 586px;
+    height: 171px;
+}
+
+.group-parent2 {
+    position: absolute;
+    top: 238px;
+    left: 0px;
+    width: 586px;
+    height: 744px;
+    font-size: 20px;
+}
+
+.features-you-will-love-enjoy-parent {
+    position: absolute;
+    top: 39px;
+    left: 0px;
+    width: 586px;
+    height: 982px;
+}
+
+.architect-icon {
+    position: absolute;
+    top: 0px;
+    left: 92px;
+    border-radius: 8px;
+    width: 708px;
+    height: 982px;
+    object-fit: cover;
+}
+
+.group-child6 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px;
+    background-color: #ff900e;
+    width: 342px;
+    height: 200px;
+}
+
+.year1 {
+    line-height: 70px;
+}
+
+.experience {
+    margin: 0;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.year-experience {
+    position: absolute;
+    top: 46px;
+    left: 42px;
+    display: inline-block;
+    width: 258px;
+}
+
+.rectangle-parent5 {
+    position: absolute;
+    top: 859px;
+    left: 0px;
+    width: 342px;
+    height: 200px;
+}
+
+.architect-parent {
+    position: absolute;
+    top: 0px;
+    left: 640px;
+    width: 800px;
+    height: 1059px;
+    text-align: center;
+    font-size: 65px;
+    color: #fff;
+}
+
+.group-parent1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 1059px;
+}
+
+.group-child7 {
+    position: absolute;
+    top: 39px;
+    left: 0px;
+    background-color: #ff900e;
+    width: 5px;
+    height: 106px;
+}
+
+.group-container {
+    position: absolute;
+    top: 2245px;
+    left: 240px;
+    width: 1440px;
+    height: 1059px;
+    font-size: 45px;
+    color: #131313;
+}
+
+.rectangle-parent {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 4760px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #727272;
+    font-family: 'Work Sans';
+}

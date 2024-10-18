@@ -1,12 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>genz-fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
 </head>
+
 <body>
- 
+    <section class="grid w-screen grid-cols-3 m-4 ">
+      
+        <header class="flex cols-span-3">
+          <img src="../class-09/genz-fashion-resources-main/icons/logo.png" alt="logo image">
+          <p class="text-[25.43px] font-bold font-['Montserrat']">
+            <span class="text-[#a4bc46]">GenZ</span>
+          <span class="text-[#363958]">Fashion</span>
+          </p>
+        </header>
+        <img class="-mt-8" src="../class-09/genz-fashion-resources-main/icons/designimg.png" alt="design">
+        <nav class="flex gap-8  sm:shrink">
+          <div class="text-black-800 text-base font-small font-mono hover:bg-sky-300">Home</div>
+          <div class="text-black-800 text-base font-small font-mono hover:bg-sky-300">Product</div>
+          <div class="text-black-800 text-base font-small font-mono hover:bg-sky-300">About Us</div>
+          <div class="text-black-800 text-base font-small font-mono hover:bg-sky-300">Contact Us</div>
+        </nav>
+     </section>
+    <header class="bg-[#FFFBF0]">
+        <div class="flex items-center justify-center gap-80 pb-21">
+            <div>
+                <h1 class="bebas-neue-regular text-7xl pb-2"><span class="text-[#FABE4C]">Be the GenZs</span><br><span class="text-[#363958]">of Winters</span></h1>
+                <p class="text-[#3E3E3E] text-base pb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <button class="bg-lime-400 text-base py-4 px-9 rounded-lg"><img class="w-6 h-6 inline pr-1" src="../class-09/genz-fashion-resources-main/icons/shopping-cart 1.png" alt="">Buy Now</button>
+           </div>
+           <div>
+            <img class="" src="../class-09/genz-fashion-resources-main/images/model.png">
+           </div>
+        </div>      
+    </header>
+    <main>
+        <section>
+            <h1 class="text-5xl bebas-neue-regular pl-10">Women Jacket</h1>
+            <div class="grid grid-cols-3 p-20">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../class-09/genz-fashion-resources-main/images/jacket-1.png">
+                    </div>
+                    <div class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A eveniet vel similique quo maxime fuga laudantium sint repellat reprehenderit nobis! Ipsum, perspiciatis eaque.</div> 
+                    
+                    <div class="flex py-4 px-9 ">
+                        <h2 class="p-4 bebas-neue-regular text-[50px]">23$</h2>
+                        <button class="bg-lime-400 text-base py-4 px-9 rounded-lg"><img class="w-6 h-6 inline pr-1" src="../class-09/genz-fashion-resources-main/icons/shopping-cart 1.png" alt="">Buy Now</button>
+                    </div>   
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../class-09/genz-fashion-resources-main/images/jacket-2.png">
+                    </div>
+                    <div class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A eveniet vel similique quo maxime fuga laudantium sint repellat reprehenderit nobis! Ipsum, perspiciatis eaque.</div> 
+                    
+                    <div class="flex py-4 px-9 ">
+                        <h2 class="p-4 bebas-neue-regular text-[50px]">23$</h2>
+                        <button class="bg-lime-400 text-base py-4 px-9 rounded-lg"><img class="w-6 h-6 inline pr-1" src="../class-09/genz-fashion-resources-main/icons/shopping-cart 1.png" alt="">Buy Now</button>
+                    </div>   
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../class-09/genz-fashion-resources-main/images/jacket-3.png">
+                    </div>
+                    <div class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A eveniet vel similique quo maxime fuga laudantium sint repellat reprehenderit nobis! Ipsum, perspiciatis eaque.</div> 
+                    
+                    <div class="flex py-4 px-9 ">
+                        <h2 class="p-4 bebas-neue-regular text-[50px]">23$</h2>
+                        <button class="bg-lime-400 text-base py-4 px-9 rounded-lg"><img class="w-6 h-6 inline pr-1" src="../class-09/genz-fashion-resources-main/icons/shopping-cart 1.png" alt="">Buy Now</button>
+                    </div>   
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../class-09/genz-fashion-resources-main/images/jacket-4.png">
+                    </div>
+                    <div class="description"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p></div> 
+                    
+                    <div class="flex py-4 px-9 ">
+                        <h2 class="p-4 bebas-neue-regular text-[50px]">23$</h2>
+                        <button class="bg-lime-400 text-base py-4 px-9 rounded-lg"><img class="w-6 h-6 inline pr-1" src="../class-09/genz-fashion-resources-main/icons/shopping-cart 1.png" alt="">Buy Now</button>
+                    </div>   
+                </div>
+            </div>
+            
+           
+           
+        </section>
+    </main>
+    <footer>
+        <div class="flex"> 
+            <div class="grid grid-rows-3">
+                <div class="card-1 flex p-12">
+                    <div class="w-16 h-20"><img src="../class-09/genz-fashion-resources-main/icons/house.png"></div>
+                    <div class="">
+                        <h4 class="">Find the Perfect Fit</h4>
+                        <div class="">Everybody is different, which is why we offer styles for every body.</div>
+                    </div>
+                    
+                </div>
+                <div class="card-2 flex p-12">
+                    <div class="w-16 h-20"><img src="../class-09/genz-fashion-resources-main/icons/house.png"></div>
+                    <div class="">
+                        <h4 class="">Find the Perfect Fit</h4>
+                        <div class="">Everybody is different, which is why we offer styles for every body.</div>
+                    </div>
+                    
+                </div>
+                <div class="card-3 flex p-12">
+                    <div class="w-16 h-20"><img src="../class-09/genz-fashion-resources-main/icons/house.png"></div>
+                    <div class="">
+                        <h4 class="">Find the Perfect Fit</h4>
+                        <div class="">Everybody is different, which is why we offer styles for every body.</div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="2">
+                <img src="../class-09/genz-fashion-resources-main/images/shopping.png">
+            </div>
+        </div>
+        
+    </footer>
 </body>
+
 </html>
